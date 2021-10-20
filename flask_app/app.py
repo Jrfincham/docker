@@ -12,6 +12,6 @@ def run_request():
 @server.route('/', methods=['GET', 'POST'])
 def hello_world():
     if request.method == 'GET':
-        return 'The model is up and running. Send a POST request'
+        return 'Test Response'
     else:
         return run_request()

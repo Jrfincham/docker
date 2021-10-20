@@ -12,6 +12,6 @@ def run_request():
 @server.route('/', methods=['GET', 'POST'])
 def hello_world():
     if request.method == 'GET':
-        return 'Test Response'
+        return 'New Test Response'
     else:
         return run_request()
